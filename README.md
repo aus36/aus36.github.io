@@ -1,10 +1,9 @@
 # This repo contains my personal portfolio website!
 
-### I am creating this website to showcase who I am as a developer and allow me to give you a glimpse into my skillset, projects, and history.
+### I created this website to showcase my web development skills as well as to give a more comprehensive look at me than a resume can hold.
 
 ### The site was created with:
-* Node
+
+* Vite
 * React
-* NextJS
-* TailwindCSS
 * TypeScript
