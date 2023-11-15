@@ -10,6 +10,12 @@ const Navbar = () => {
             <Link to={"/experience"}  className={styles.navbarButton}>
                 <h3 className={styles.navbarText}>Experience</h3>
             </Link>
+            <Link to={"/skills"}  className={styles.navbarButton}>
+                <h3 className={styles.navbarText}>Skills</h3>
+            </Link>
+            <Link to={"/"}  className={styles.navbarButton}>
+                <h3 className={styles.navbarText}>Home</h3>
+            </Link>
             <Link to={"/resume"}  className={styles.navbarButton}>
                 <h3 className={styles.navbarText}>Resume</h3>
             </Link>

@@ -18,6 +18,15 @@
     color: '#ffffff';
     font-size: '1.5rem';
     font-weight: 'bold';
+    transition: all 1s ease;
+}
+
+.navbarButton:hover {
+    transform: scale(1.1);
+}
+
+.navbarButton:active {
+    transform: scale(1.1);
 }
 
 .navbarText {
