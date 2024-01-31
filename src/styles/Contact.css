@@ -1,0 +1,20 @@
+.contacts-container {
+    bottom: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.linkedin {
+    top: 20%;
+    color: #0077B5;
+    font-size: 2.5rem;
+    margin: 0 1rem;
+}
+
+.linkedin-logo {
+    width: 500px;
+    height: 500px;
+}

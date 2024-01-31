@@ -1,11 +1,11 @@
-import "../styles/Home.css"
+import styles from "../styles/Home.module.css"
 import Navbar from "../components/Navbar"
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { useCallback } from "react";
 import { Engine } from "tsparticles-engine";
 import particleOptions from "../functions/particles";
-import defaultpfp from "../assets/defaultpfp.png"
+import headshot from "../assets/headshot.jpg"
 import Typewriter from "../components/Typewriter";
 
 function Home() {
@@ -17,15 +17,14 @@ function Home() {
   }, []);
 
   return (
-    <div className="main-container">
+    <div className={styles.main_container}>
       <Navbar />
-      <div className="content">
-        <img className="profile-pic" src = {defaultpfp} alt="Profile Pic"/>
-        <h1 className="name">Austin Hale</h1>
+      <div className={styles.content}>
+        <img className={styles.profile_pic} src = {headshot} alt="Profile Pic"/>
+        <h1 className={styles.name}>Austin Hale</h1>
         <Typewriter words={words}/>
-        <p className="bioblock">Welcome to my portfolio! I am a web/mobile developer with a passion for creating feature-rich applications, mainly using React and React Native, as well as backends with NodeJS</p>
-        <p className="bioblock">I am a graduate from Texas A&M University - Commerce with a Bachelor's in Computer Science. I am currently the lead developer and project manager of a research organization called <a className = "spairllink" href={"https://github.com/SPAIRL"}>SPAIRL</a> that is developing a contacts application using decentralized identity.</p>
-        <p className="bioblock">I am currently looking for roles in web development, software engineering, or mobile development so that I may use my skills to create products that excel in every way.</p>
+        <p className={styles.bioblock}>Welcome to my portfolio! I am a full-stack developer with a passion for creating feature-rich applications, mainly using React, as well as backends with NodeJS, Python, or C#</p>
+        <p className={styles.bioblock}>I am a graduate from Texas A&M Commerce with a Bachelor's in Computer Science and I have experience as a researcher in the decentralized tech space and a software engineer for a clean energy startup.</p>
       </div>
       <Particles style = {{zIndex: 0}} options={particleOptions} init={particlesInit}/>
     </div>

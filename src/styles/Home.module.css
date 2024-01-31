@@ -1,12 +1,12 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0;
   padding-inline: 1rem;
   text-align: center;
   width: 100%;
-}
+} */
 
-.main-container {
+.main_container {
   display: flex;
   flex-direction: column;
   place-items: center;
@@ -25,11 +25,12 @@
   font-size: 3rem;
 }
 
-.profile-pic {
+.profile_pic {
   margin-top: 40%;
-  height: 250px;
-  width: 250px;
+  height: 275px;
+  width: 275px;
   border-radius: 9999px;
+  object-fit: cover;
 }
 
 .bioblock {
@@ -37,9 +38,4 @@
   font-size: 1.25rem;
   padding-bottom: 1rem;
   border-bottom: solid;
-}
-
-.spairllink {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.87);
 }
